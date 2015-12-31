@@ -1,0 +1,18 @@
+# Site settings
+title: Prasanth's Blog
+header-img: img/home-bg.jpg
+email: prasanthmani2010@gmail.com
+description: "my record of my path in open source life"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: prasanthp96
+github_username:  prasanthp96
+facebook_username:  prasanthp96
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+paginate_path: "/blog/page:5/"
+exclude: ["less","node_modules"	,"Gruntfile.js","package.json","README.md"]

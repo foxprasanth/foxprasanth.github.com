@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "THE DOT- My First event"
+subtitle:   "- My First event"
+date:       2015-11-2 12:00:00
+category:	events 
+author:     "Prasanth"
+header-img: "img/dot-01.jpg"
+---
+
+<p>My First speech as an FSA was at THE DOT, which was held at Gandhigram University, Chinnalapatti, Madurai. It was a one-day event.  Seshan , my good friend and an FSA, planned and organized the event. There were 24 participants from other colleges in Madurai. The event went on as THREE parts.</p>
+<ol>
+	<li>Introduction to Mozilla FSA and Webmaker tools</li>
+	<li>Build Box</li>
+	<li>Github</li>
+</ol>
+<p>I had a great opportunity to talk about Mozila and Webmaker tools in the morning. The participants were shown a demo to use Webmaker tools such as TIMBLE and X-Ray GOGGLES.These tools were used extensively in the evening session.</p>
+<p>My session went on around 2 hours, after which session on Build Box by Seshan. Buildbox session lasted for about 2 hours. The participants eagerly participated and learnt to handle the game creation tool.<p>
+<p>Then after the lunch, Prasanna Vijayan, from Google Developers Group Madurai, started his session on Github. The participants were given a clear picture of Control version system. They were also provided the installable files of github. Then a folder containing all the files of a PORTFLIO website was provided. They were asked to modify  the website. Unlike traditional method of using NOTEPAD++,  The participants used X-RAY GOGGLES.</p>
+<p>Then the modified sites was uploaded using github and as a result every participants got a single page website  about themselves!!!
+
+There were discussions and quiz sessions which were fun filled and added smoothness to the flow of the event.</p>
