@@ -3,9 +3,10 @@ layout:     post
 title:      "THE DOT- My First event"
 subtitle:   "- My First event"
 date:       2015-11-2 12:00:00
-category:	events 
+category:	events
 author:     "Prasanth"
 header-img: "img/dot-01.jpg"
+comments: true
 ---
 
 <p>My First speech as an FSA was at THE DOT, which was held at Gandhigram University, Chinnalapatti, Madurai. It was a one-day event.  Seshan , my good friend and an FSA, planned and organized the event. There were 24 participants from other colleges in Madurai. The event went on as THREE parts.</p>
