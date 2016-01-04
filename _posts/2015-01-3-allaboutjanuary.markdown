@@ -16,6 +16,10 @@ header-img: "img/green.jpeg"
 <h4>And what do they do with it?</h4>
 <p>Every time you sign up for a service such as bank accounts, medical service, accounts in various websites(more importantly social media), you provide some personal information such as location, contacts, also your likes and habits.</p>
 <p>These information, reveal your identity and without your concern the companies sell these data to third party websites - such as ad agencies.Here the data privacy of the user is at stake</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/privacymonth1.jpg" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">Online privacy</span>
 
 <h3>Now you got what exactly data privacy is...</h3>
 <h4>lets move on know to what people are doing during in this Privacy Month</h4>
@@ -42,6 +46,10 @@ header-img: "img/green.jpeg"
 <p>And also National Cyber Security Alliance in  <span><a href = "https://www.facebook.com/staysafeonline/">facebook</a></span> <span><a href = "https://twitter.com/staysafeonline">twitter</a></span>
 
 <p>Share their tips and be secure as it may reach many!!</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/privacymonth2.png" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">Source: Mozilla</span>
 
  <p>Being an international effort this cause is supported and promoted by many organizations and companies. <b>Mozilla</b> is one of the them. It is non-profit organizations that aims to serve the people with a safe,<b>open web</b>. This company's major contribution to the open-source world is <b>Firefox</b>- The most loved browser which respects your privacy.I feel proud to be a part of this campaign and I am very happy to be with my local community - <b>Mozilla TamilNadu community</b><p>
  <p>Let's be secure. Let's make this web safe..Together</p>
