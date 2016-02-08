@@ -18,7 +18,7 @@
 ##
 require 'oembed'
 require 'uri'
-
+require 'openssl'
 # register all default OEmbed providers
 ::OEmbed::Providers.register_all()
 # since register_all does not register all default providers, we need to do this here. See https://github.com/judofyr/ruby-oembed/issues/18

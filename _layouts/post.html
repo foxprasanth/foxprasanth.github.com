@@ -1,7 +1,85 @@
 ---
 layout: default
 ---
+  <!-- Twitter cards metadatas -->
+	<meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@prasanthp96">
+	{% if page.title %}
+	<meta name="twitter:title" content="{{ page.title }}">
+	{% else %}
+	<meta name="twitter:title" content="{{ site.title }}">
+	{% endif %}
+	{% if page.url %}
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+	{% endif %}
+	{% if page.description %}
+	<meta name="twitter:description" content="{{ page.description }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}
+  <!-- End of Twitter cards metadatas -->
 
+<!--facebook sdk-->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '524666877694617',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!--End of facebook sdk-->
+<!--Facebook meta data-->
+<!-- facebook Open Graph Metadatas -->
+<meta content="524666877694617" property="fb:app_id">
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+<meta content="{{ page.title }}" property="og:title">
+{% else %}
+<meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+<meta content="article" property="og:type">
+{% else %}
+<meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+<meta content="{{ page.description }}" property="og:description">
+{% else %}
+<meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+<meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+<meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+{% if page.image %}
+<meta content="/img/posts/{{ page.image }}" property="og:image">
+{% else %}
+<meta content="/img/logo-high-resolution.png" property="og:image">
+{% endif %}
+{% if page.categories %}
+{% for category in page.categories limit:1 %}
+<meta content="{{ category }}" property="article:section">
+{% endfor %}
+{% endif %}
+{% if page.tags %}
+{% for tag in page.tags %}
+<meta content="{{ tag }}" property="article:tag">
+{% endfor %}
+{% endif %}
+<!--end of fdacebook meta data-->
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
@@ -28,6 +106,19 @@ layout: default
 				{{ content }}
 
                 <hr>
+
+                <!--starting of social sharing buttons-->
+                <!-- Place this tag in your head or just before your close body tag. -->
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
+                <!-- Place this tag where you want the share button to render. -->
+                <div class="g-plus" data-action="share" data-height="24"></div><br>
+                <!--facebook shareing button-->
+                <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button"></div><br><br>
+                <!--Twiiter Share Button-->
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="prasanthp96" data-size="large">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <!--Ending of social sharing buttons-->
+
 
                 <ul class="pager">
                     {% if page.previous.url %}
