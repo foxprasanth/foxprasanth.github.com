@@ -19,6 +19,7 @@ header-img: "img/lavendar.jpeg"
 <p>Then there was a quick discussion on FSA program and its various levels. All participants showed interest in the program and they were provided the links for signing up for FSA.</p>
 <p>After the sign up process, the various contribution areas were explained and at the end of the event , the future plans were discussed</p>
 
+<p>The Etherpad containing the various links can be found <a href="https://public.etherpad-mozilla.org/p/skcet-fsa-intro-links">here</a></p>
 <p>Volunteers:</p>
 <a href ="https://www.facebook.com/nagamanikandan.rv">Naga Manikandan</a>
 <a href = "https://www.facebook.com/csnaveen">Naveen CS</a>
