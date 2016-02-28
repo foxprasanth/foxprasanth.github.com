@@ -25,10 +25,8 @@ header-img: "img/blue.jpeg"
 
 <p>Lightbeam add-on was an attention gaining factor.It was followed a good discussion on setting up a strong password.Tor network and Firefox private mode was also the part of discussion. Finally some tips for protection against phishing were given.Later on our swags were also distributed</p>
 
-<p>The presentation that I used in the campaign can be found
-{{ oembed http://www.slideshare.net/prasanthrethz/online-privacy-and-security }}
-{{ oembed http://www.youtube.com/watch?v=Sv5iEK-IEzw  }}
-<a href ="http://www.slideshare.net/prasanthrethz/online-privacy-and-security">here</a></p>
+<h3>The presentation which I used for the event:</h3>
+{% oembed http://www.slideshare.net/prasanthrethz/online-privacy-and-security %}
 
 <p>Other pictures can be found <a href = "https://www.flickr.com/photos/138059213@N05/">here</a></P>
 
