@@ -49,9 +49,9 @@ description: "On the part of My life that contributes to open-source"
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
     {% if paginator.previous_page %}
-        <a style="color:white"href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons medium circle red">navigate_before</i></a>
+        <a class="waves-effect waves-light btn" style="color:white"href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer Posts</a>
     {% endif %}
     {% if paginator.next_page %}
-        <a style="color:white"href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons medium circle red ">navigate_next</i></a>
+        <a class="waves-effect waves-light btn" style="color:white"href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts</a>
     {% endif %}
 {% endif %}
