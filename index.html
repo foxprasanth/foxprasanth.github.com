@@ -2,7 +2,7 @@
 layout: page
 description: "On the part of My life that contributes to open-source"
 ---
-
+<!--
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -17,20 +17,41 @@ description: "On the part of My life that contributes to open-source"
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
+{% endfor %}-->
+
+{% for post in paginator.posts %}
+<div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card large card-panel hoverable grey lighten-5 z-depth-1">
+            <div class="card-image">
+             {% if post.category == "events" %}
+              <img src="/img/event.jpg">
+              {% endif %}
+              {% if post.category == "thoughts" %}
+              <img src="/img/thought.jpg">
+              {% endif %}
+              <span class="card-title">{{ post.catergory }}</span>
+            </div>
+            <div class="card-content">
+              <p>{{ post.title }}</p>
+              <!--<p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%-b %-d, %Y" }}</p>-->
+             <p><i class="material-icons">date_range</i> {{ post.date | date: "%-b %-d, %Y" }}</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+            </div>
+          </div>
+        </div>
 {% endfor %}
+</div>
+
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
-<ul class="pager">
     {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
+        <a style="color:white"href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons medium circle red">navigate_before</i></a>
     {% endif %}
     {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
+        <a style="color:white"href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons medium circle red ">navigate_next</i></a>
     {% endif %}
-</ul>
 {% endif %}

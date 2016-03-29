@@ -3,7 +3,7 @@ layout:     post
 title:      "My Experience as an FSA"
 subtitle:   "The way I reached FSA program"
 date:       2015-12-28 12:00:00
-category:	events
+category:	thoughts
 author:     "Prasanth"
 header-img: "img/yellow.jgep"
 ---

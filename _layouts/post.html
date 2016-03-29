@@ -80,6 +80,8 @@ layout: default
 {% endfor %}
 {% endif %}
 <!--end of fdacebook meta data-->
+
+
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
@@ -106,20 +108,6 @@ layout: default
 				{{ content }}
 
                 <hr>
-
-                <!--starting of social sharing buttons-->
-                <!-- Place this tag in your head or just before your close body tag. -->
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
-                <!-- Place this tag where you want the share button to render. -->
-                <div class="g-plus" data-action="share" data-height="24"></div><br>
-                <!--facebook shareing button-->
-                <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button"></div><br><br>
-                <!--Twiiter Share Button-->
-                <a href="https://twitter.com/share" class="twitter-share-button" data-via="prasanthp96" data-size="large">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                <!--Ending of social sharing buttons-->
-
-
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -141,6 +129,17 @@ layout: default
 
 <hr>
 
+
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">share</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating blue darken-3" href="http://www.facebook.com/share.php?u={{site.url}}{{page.url}}&title={{page.title}}"><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a></li>
+      <li><a class="btn-floating light blue darken-1" href="http://twitter.com/home?status={{page.title}}+{{page.subtitle}}+{{site.url}}{{page.url}}"><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></a></li>
+			<li><a class="btn-floating blue darken-4" href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title}}"><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></a></li>
+    </ul>
+  </div>
 
 
 <div id="disqus_thread">

@@ -9,22 +9,31 @@ header-img: "img/event.gif"
 
 {% for post in site.posts %}
 {% if post.category == "events" %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
+<div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card large card-panel hoverable grey lighten-5 z-depth-1">
+            <div class="card-image">
+              {% if post.category == "events" %}
+               <img src="/img/event.jpg">
+               {% endif %}
+               {% if post.category == "thoughts" %}
+               <img src="/img/thought.jpg">
+               {% endif %}
+              <span class="card-title">{{ post.catergory }}</span>
+            </div>
+            <div class="card-content">
+              <p>{{ post.title }}</p>
+              <!--<p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%-b %-d, %Y" }}</p>-->
+             <p><i class="material-icons">date_range</i> {{ post.date | date: "%-b %-d, %Y" }}</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+            </div>
+          </div>
+        </div>
 {% endif %}
 {% endfor %}
-
+</div>
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
