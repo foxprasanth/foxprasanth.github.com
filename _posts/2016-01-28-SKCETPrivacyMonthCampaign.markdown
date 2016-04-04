@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Privacy campaign @ SKCET"
-subtitle:   ""
+title:      "Privacy campaign"
+subtitle:   "At Sri Krishna College of Engineering and Technology"
 date:       2016-1-28 12:00:00
 category:	  events
 author:     "Prasanth"
@@ -25,7 +25,6 @@ header-img: "img/blue.jpeg"
 
 <p>Lightbeam add-on was an attention gaining factor.It was followed a good discussion on setting up a strong password.Tor network and Firefox private mode was also the part of discussion. Finally some tips for protection against phishing were given.Later on our swags were also distributed</p>
 
-<h3>The presentation which I used for the event:</h3>
 
 <p>Other pictures can be found <a href = "https://www.flickr.com/photos/138059213@N05/">here</a></P>
 
