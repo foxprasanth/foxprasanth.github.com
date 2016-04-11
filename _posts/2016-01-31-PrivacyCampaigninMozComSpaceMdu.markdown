@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Privacy campaign"
+title:      "Privacy campaign - 2"
 subtitle:   "At Mozilla Community space, Madurai"
 date:       2016-1-31 12:00:00
 category:	  events
