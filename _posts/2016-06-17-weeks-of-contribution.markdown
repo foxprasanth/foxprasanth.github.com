@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Weeks of Contribution"
-subtitle:   "Turning thoughts into action"
+subtitle:   "An introduction"
 date:       2016-6-17 12:00:00
 category:	thoughts
 author:     "Prasanth"
@@ -34,7 +34,7 @@ header-img: "img/yellow.jgep"
 </ul>
 
 
-<h5>Other Ways</h5>
+<h5>The Other Ways</h5>
 <p>This is opensource!! So there must be many other ways for contributions. I would like to contribute by participating in Testing Days(Mozilla QA), translating SUMO articles and also spreading the Mozilla's mission to as many people as possible</p>
 
 
