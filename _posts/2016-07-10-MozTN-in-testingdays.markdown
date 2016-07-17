@@ -29,5 +29,5 @@ Read what our contributors are saying about their participation -
 	<li><a href="http://ashlirosemathew.blogspot.in/2016/07/firefox-48-beta-testing.html">Ashly Rose</a></li>
 	<li><a href="http://bhuvanameenakshifirefox.blogspot.in/2016/06/firefox-48-beta-3-testday.html">Bhuvana Meenakshi</a></li>
 </ul>
-<p>Let's Join hands and Make firefox better then ever!!</p>
+<p>Let's Join hands and Make firefox better than ever!!</p>
 <p>#MozillaQA #MozillaTN</p>
