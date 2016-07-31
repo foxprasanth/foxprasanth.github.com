@@ -17,7 +17,7 @@ comments: true
 </ol>
 <p>I had a great opportunity to talk about Mozila and Webmaker tools in the morning. The participants were shown a demo to use Webmaker tools such as TIMBLE and X-Ray GOGGLES.These tools were used extensively in the evening session.</p>
 <p>My session went on around 2 hours, after which session on Build Box by Seshan. Buildbox session lasted for about 2 hours. The participants eagerly participated and learnt to handle the game creation tool.<p>
-<p>Then after the lunch, Prasanna Vijayan, from Google Developers Group Madurai, started his session on Github. The participants were given a clear picture of Control version system. They were also provided the installable files of github. Then a folder containing all the files of a PORTFLIO website was provided. They were asked to modify  the website. Unlike traditional method of using NOTEPAD++,  The participants used X-RAY GOGGLES.</p>
+<p>Then after the lunch, Prasanna Vijayan, from Google Developers Group Madurai, started his session on Github. The participants were given a clear picture of the version control system. They were also provided the installable files of github. Then a folder containing all the files of a PORTFLIO website was provided. They were asked to modify  the website. Unlike traditional method of using NOTEPAD++,  The participants used X-RAY GOGGLES.</p>
 <a href="#">
     <img src="{{ site.baseurl }}/img/dot-1.jpg" alt="Post Sample Image">
 </a>
