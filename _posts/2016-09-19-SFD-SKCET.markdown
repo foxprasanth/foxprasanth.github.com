@@ -1,0 +1,60 @@
+---
+layout:     post
+title:      "Introducing FOSS and Mozilla"
+subtitle:   "in Sri Krishna College of Engineering and Technology"
+date:       2016-9-14 12:00:00
+category:	  events
+author:     "Prasanth"
+header-img: "img/lavendar.jpeg"
+---
+
+<h3>SFD - Software Freedom day, Sept 17,2016</h3>
+<p>On this day, every year, open source enthusiasts around the world conduct numerous events promoting FOSS. Being a contributor for Mozilla and a student of SKCET, I too thought I should do something similiar in my college.</p>
+<h3>Mozilla on campus</h3>
+<p>With the brand new program "Mozilla on campus" coming up very soon, I thought it was the perfect time to give the students in my college an introduction to Mozilla and opensource contributions</p>
+<p>Thus I contacted Mozilla contributors in my region (TamilNadu) and requested them to conduct session on the day</p>
+<p>Finally our awesome Mozilla reps, Mr.Karthickeyan and Mr.Vishwaprasath extended their support and agreed to come up to the event</p>
+<h3>On the event </h3>
+<p> Mr.Karthickeyan and Mr.Vishwaprasath arrived in our college by 2.00pm. We had lunch and the event started by 2.30pm.</p>
+<p>With more than 75+ students inside the hall, the event started off with the session by Vishwaprasath. He motivated the students by saying how his contributions to Mozilla improved his life.</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sdf-1.JPG" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">Vishwaprasath while speaking to the students</span>
+<p> Students asked him questions, which he clearly explained to them. He also told about various means of contributing to open source such as Google Summer of Code, Fedora contributions etc.</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sfd-2.JPG" alt="Post Sample Image">
+</a>
+<h3>Mozilla on Campus</h3>
+<p>Then Mr.Karthic spoke to the students regarding the Mozilla on Campus program. He clearly explained the significance of joining in this program.</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sfd-3.JPG" alt="Post Sample Image">
+</a>
+<p>Then we moved to one of our computer laboratories where Our enthusiastic team of students have already installed the Firefox Developer edition and the Webcompat add-on in around 60 computers, for the event .</p>
+<h3>Test Pilot</h3>
+<p>Vishwaprasath bro started this session by explaining the testpilot program.He asked the students to try out the testpilot addon in their respective systems</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sfd-5.JPG" alt="Post Sample Image">
+</a>
+
+<h3>Web-compat</h3>
+<p>Then Vishwaprasath showed a demo about how the Webcompat.com actually works and the idea behind it. The students after seeing the demo started searching for bugs in websites.</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sfd-4.jpg" alt="Post Sample Image">
+</a>
+<p>The students were divided into groups and each group was assigned a range of values.Then they went alexa.com where they got a list of sites to verify using the range of assigned values.</p>
+<p>Many students enthusiastically participated in this session by actively participating and there were around 10 bugs filed in webcompat.com during the session</p>
+<p>Finally Karthic gave introduction to MozWebVR and also gave demo to the students using his VR headsets.</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sfd-6.jpg" alt="Post Sample Image">
+</a>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/sfd-7.jpg" alt="Post Sample Image">
+</a>
+<p>With 60+ nightly installation , 60+ webcompat installations along with WebVR , it was a great event indeed!It was great to meet karthic and Vishwaprasath. Planning to create more Mozilla actvities in our college in future.</p>
+<p>People behind the lens:</p>
+<ul>
+	<li><a href="https://www.facebook.com/Mathanbrittophotography/">Mathan</a></li>
+	<li><a href="">Bhavika</a></li>
+</ul>
