@@ -12,7 +12,7 @@ header-img: "img/lavendar.jpeg"
 <p>On this day, every year, open source enthusiasts around the world conduct numerous events promoting FOSS. Being a contributor for Mozilla and a student of SKCET, I too thought I should do something similiar in my college.</p>
 <h3>Mozilla on campus</h3>
 <p>With the brand new program "Mozilla on campus" coming up very soon, I thought it was the perfect time to give the students in my college an introduction to Mozilla and opensource contributions</p>
-<p>Thus I contacted Mozilla contributors in my region (TamilNadu) and requested them to conduct session on the day</p>
+<p>Thus I contacted Mozilla contributors in my region (TamilNadu) and requested them to conduct session on that day</p>
 <p>Finally our awesome Mozilla reps, Mr.Karthickeyan and Mr.Vishwaprasath extended their support and agreed to come up to the event</p>
 <h3>On the event </h3>
 <p> Mr.Karthickeyan and Mr.Vishwaprasath arrived in our college by 2.00pm. We had lunch and the event started by 2.30pm.</p>
