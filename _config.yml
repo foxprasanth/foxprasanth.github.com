@@ -11,7 +11,7 @@ facebook_username:  prasanthp96
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 gems: [jekyll-paginate]
 paginate: 6	
