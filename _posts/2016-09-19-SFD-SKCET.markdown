@@ -2,7 +2,7 @@
 layout:     post
 title:      "Introducing FOSS and Mozilla"
 subtitle:   "in Sri Krishna College of Engineering and Technology"
-date:       2016-9-14 12:00:00
+date:       2016-9-19 12:00:00
 category:	  events
 author:     "Prasanth"
 header-img: "img/lavendar.jpeg"
@@ -52,7 +52,7 @@ header-img: "img/lavendar.jpeg"
 <a href="#">
     <img src="{{ site.baseurl }}/img/sfd-7.jpg" alt="Post Sample Image">
 </a>
-<p>With 60+ nightly installation , 60+ webcompat installations along with WebVR demo, it was a great event indeed! It was great to meet karthic and Vishwaprasath. Planning to create more Mozilla actvities in our college in future.</p>
+<p>With 60+ nightly installation , 60+ webcompat and testpilot installations along with WebVR demo, it was a great event indeed! It was great to meet karthic and Vishwaprasath. Planning to create more Mozilla actvities in our college in future.</p>
 <p>People behind the lens:</p>
 <ul>
 	<li><a href="https://www.facebook.com/Mathanbrittophotography/">Mathan</a></li>
