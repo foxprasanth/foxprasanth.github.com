@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "My MozPlan 2017"
+subtitle:   "- What I plan to do in 2017"
+date:       2016-12-11 12:00:00
+category:	  thoughts
+author:     "Prasanth"
+header-img: "img/green.jpeg"
+---
+<h3>Hello there!</h3>
+<p>December is here which marks the end of 2016. I am very happy with the 2016 and now it is say goodbye to it.</p>
+<p>After saying goodbye, I welcome 2017, with a plan ( sort of :P )</p>
+<p>Have a look at this</p>
+<ul>
+<li>Make localised (Tamil) tutorial for QA contributions</li>
+<li>File atleast 20 good bugs</li>
+<li>Bring 30 new participants to <a href="https://wiki.mozilla.org/QA/Testdays">TestDays</a></li>
+<li>Need to promote participating in BugTriage days and Bug Verification Days</li>
+<li>Write atleast 5 Marionette scripts ( Firefox UI Automation testing framework )</li>
+<li>Guide atleast 5 contributors in their interactions with community and contributions</li>
+<li>And help them to nuture as a 'quality' contributor to Mozilla</p>
+</ul>
+<p>And this is it!</p>
+<p>I have made my plan.. what's yours?? </p>
+<b>#Mozilla #opensource</b>
