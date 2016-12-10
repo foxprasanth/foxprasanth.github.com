@@ -18,7 +18,7 @@ header-img: "img/green.jpeg"
 <li>Need to promote participating in BugTriage days and Bug Verification Days</li>
 <li>Write atleast 5 Marionette scripts ( Firefox UI Automation testing framework )</li>
 <li>Guide atleast 5 contributors in their interactions with community and contributions</li>
-<li>And help them to nuture as a 'quality' contributor to Mozilla</p>
+<li>And help them to nuture as a 'quality' contributor to Mozilla</li>
 </ul>
 <p>And this is it!</p>
 <p>I have made my plan.. what's yours?? </p>
