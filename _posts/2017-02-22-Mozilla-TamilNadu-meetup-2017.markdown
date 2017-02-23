@@ -7,7 +7,7 @@ category:	  events
 author:     "Prasanth"
 header-img: "img/lavendar.jpeg"
 ---
-<p>I know 
+<p>Here is a very short note about an amazing meetup</p>
 <h3>Mozilla TamilNadu Meetup 2017</h3>
 <p>It was a 2 day meetup that took place in KGISL college, coimbatore on 21st and 22nd January 2017, bringing in contributors from various parts of TamilNadu and that aimed </p>
 <b>elevate new contributors to do consistent contributions to Mozilla.</b>
@@ -23,7 +23,7 @@ header-img: "img/lavendar.jpeg"
 <p>Then each track facilitator explained about their tracks. I had the opportunity to cover QA and webcompat area. It was followed by discussion of various community issues of the members.</p>
 <p>Later we departed to our hotel rooms.</p>
 <h3>Day 2</h3>
-</ul>
+<a href="#">
     <img src="{{ site.baseurl }}/img/mozillatn17-3.jpg" alt="Post Sample Image">
 </a>
 <span class="caption text-muted">Awesome Mozillians</span>
@@ -31,17 +31,19 @@ header-img: "img/lavendar.jpeg"
 <p>I had an awesome bunch of people in my Track - "Webcompat and QA"</p>
 <ul>
 <li>Surendran</li>
- <li>Nagaraj V</li>
+<li>Nagaraj V</li>
 <li>P.Priyadharshini</li>
 <li>Abhishek Sehgal</li>
 <li>Barani</li>
 <li>Fahima Zulfath A</li>
 <li>Gautham Venkat</li>
+<li>Krithika</li>
 </ul>
+<a href="#">
     <img src="{{ site.baseurl }}/img/mozillatn17-2.jpg" alt="Post Sample Image">
 </a>
 <span class="caption text-muted">Team webcompat</span>
-<p>We did an amazing work. Verified 20+ websites for their firefox compatibility and we have worked with 15+ bugs by triaging and verifying</p>
+<p>We did an amazing work. Verified 20+ websites for their firefox compatibility and we have worked with 15+ bugs by triaging and verifying. Here is our works <a href="https://public.etherpad-mozilla.org/p/MozillaTN17-webcompat-focusteam">have a look!</a></p>
 <p>We also brainstormed future plans</p>
 <p>It was an amazing two days indeed !! which lasts in memory forever!</p>
 <p>Will continue my good work in 2017 #MozillaTN17</p>
